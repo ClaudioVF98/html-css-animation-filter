@@ -199,18 +199,18 @@
 
 /* Esercizio 10 */
 .ex-10-icon:hover {
-    animation: spin 3s linear infinite;
+    animation: spin1 3s linear infinite;
 }
-@keyframes spin {
+@keyframes spin1 {
     from {transform:rotate(0deg);}
     to {transform:rotate(360deg);}
 }
 
 /* Esercizio 11 */
 .ex-11-icon:hover {
-    animation: spin 3s linear infinite;
+    animation: spin2 1s linear infinite;
 }
-@keyframes spin {
+@keyframes spin2{
     0% {
         transform: rotate(0);
     }
@@ -219,14 +219,14 @@
     }
     100% {
         transform: rotate(0);
-    }
+    } 
 }
 
 /* Esercizio 12 */
 .ex-12-button:hover .ex-12-bottom-white {
-    animation: spin 1s linear;
+    animation: spin3 1s linear;
 }
-@keyframes spin {
+@keyframes spin3 {
     0% {
         right: 20%;
     }
@@ -240,9 +240,9 @@
 }
 
 .ex-12-button:hover .ex-12-top-white {
-    animation: spin 1s linear;
+    animation: spin4 1s linear;
 }
-@keyframes spin {
+@keyframes spin4 {
     0% {
         left: 10%;
     }
@@ -251,5 +251,66 @@
     }
     100% {
         left: 10%;
+    }
+}
+
+/* Esercizio 13 */
+.ex-13-button:hover .ex-13-top-white {
+    animation: spin5 1s linear;
+}
+@keyframes spin5 {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    20% {
+        left: 100%;
+        top: -10px;
+    }
+    40% {
+        left: 100%;
+        top: 100%;
+    }
+    60% {
+        left: 0;
+        top: 100%;
+    }
+    80% {
+        left: -15px;
+        top: -10px;
+    }
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: spin6 1s linear;
+}
+@keyframes spin6 {
+    0% {
+        bottom: -10px;
+        right: 20%;
+    }
+    20% {
+        right: 100%;
+        bottom: -10px;
+    }
+    40% {
+        right: 100%;
+        bottom: 100%;
+    }
+    60% {
+        right: 0;
+        bottom: 100%;
+    }
+    80% {
+        right: -15px;
+        bottom: -10px;
+    }
+    100% {
+        bottom: -10px;
+        right: 20%;
     }
 }
