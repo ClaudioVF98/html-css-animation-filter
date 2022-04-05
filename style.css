@@ -175,3 +175,49 @@
 .ex-7-img:hover {
     filter: invert(1) blur(2px);
 }
+
+/* Esercizio 8 */
+.ex-8-img {
+    transition: 1s;
+}
+
+.ex-8-img:hover {
+    filter: invert(1) blur(2px);
+    border-radius: 100%;
+}
+
+/* Esercizio 9 */
+.ex-9-img {
+    transition: 1s;
+}
+
+.ex-9-img:hover {
+    filter: invert(1) blur(2px);
+    border-radius: 100%;
+    transform: scale(2);
+}
+
+/* Esercizio 10 */
+.ex-10-icon:hover {
+    animation: spin 3s linear infinite;
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+/* Esercizio 11 */
+.ex-11-icon:hover {
+    animation: spin 3s linear infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
